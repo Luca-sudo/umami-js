@@ -217,5 +217,3 @@ model Report {
   @@index([name])
   @@map("report")
 }
-
-directUrl = env("DIRECT_DATABASE_URL")
